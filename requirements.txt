@@ -1,0 +1,43 @@
+# FastAPI and web server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Audio processing
+torch>=2.0.0
+torchaudio>=2.0.0
+whisperx @ git+https://github.com/m-bain/whisperX.git
+openai-whisper==20231117
+ffmpeg-python==0.2.0
+
+# Speaker diarization
+pyannote.audio==3.1.1
+speechbrain==1.0.0
+
+# Machine learning
+transformers==4.36.0
+accelerate==0.25.0
+datasets==2.15.0
+
+# Audio utilities
+librosa==0.10.1
+soundfile==0.12.1
+pydub==0.25.1
+
+# Data handling
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.4
+
+# API and utilities
+pydantic==2.5.0
+python-jose[cryptography]==3.3.0
+python-dotenv==1.0.0
+aiofiles==23.2.1
+
+# Logging and monitoring
+structlog==23.2.0
+prometheus-client==0.19.0
+
+# Optional: For better performance
+numba==0.58.1
